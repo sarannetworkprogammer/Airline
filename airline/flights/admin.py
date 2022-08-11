@@ -3,7 +3,7 @@ from django.contrib import admin
 
 from .models import Flight, Airport, Passenger
 
-# Register your models here.
+# Register your models here thats it
 
 class FlightAdmin(admin.ModelAdmin):
     list_display = ("id", "origin", "destination", "duration")
